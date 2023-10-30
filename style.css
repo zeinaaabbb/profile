@@ -1,0 +1,66 @@
+body {
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+  line-height: normal;
+}
+
+h1, h2 {
+  color:blueviolet;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:bold;
+  line-height:normal;
+}
+
+.link-blue {
+  color: blueviolet;
+  text-decoration:none;
+}
+
+.link-blue:hover{
+  color: green !important;
+}
+
+.container {
+  margin: 20px auto;
+  text-align: center;
+  width: 600px
+}
+
+.card-white {
+  background: white;
+  padding:30px;
+  margin:30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.img-circle {
+  width:130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.card-socials {
+  font-size: 25px;
+}
+
+.btn-purple{
+  background-color: blueviolet ;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 100px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-purple:hover{
+  background-color: green ;
+}
+
+
+#para-bigger-margin {
+  margin-bottom: 60px;
+}
